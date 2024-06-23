@@ -43,7 +43,7 @@
     align-items: center;
 }
 
-.info1 {
+.info {
     margin-left: 25%;
     max-width: 67%;
 }
@@ -63,7 +63,7 @@
     color: #ffffff;
 }
 
-.text1 {
+.introducao {
     margin-top: 0px;
     margin-bottom: 4%;
     font-family: "Poppins", sans-serif;
@@ -71,13 +71,13 @@
     color: #ffffff;
 }
 
-.menu1 {
+.menu {
     list-style-type: none;
     padding-left: 0;
     text-align: center;
 }
 
-.menu1 a {
+.menu a {
     font-size: 25px;
     color: #ffffff;
     background-color: #212121;
@@ -85,11 +85,11 @@
     border-radius: 150%;
 }
 
-.a1 {
+.whats {
     margin-bottom: 200%;
 }
 
-.a2 {
+.email {
     margin-bottom: 200%;
 }
 
@@ -98,7 +98,7 @@
     align-items: center;
 }
 
-.botao1 {
+.qse {
     margin-right: 1%;
     padding: 15px;
     padding-left: 20px;
@@ -119,4 +119,91 @@
     color: #000000;
     border-top-right-radius: 45px;
     border-bottom-right-radius: 45px;
+}
+
+/* Quem sou eu */
+.body-primario {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.color-background2 {
+    height: 30%;
+    background-color: #db8c19;
+}
+
+.desc-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    background-color: #000000;
+}
+
+.full-body {
+    width: 95%;
+    height: 100vh;
+}
+
+.body-primario img {
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: -10px 5px 25px #212121;
+}
+
+.img2 {
+    width: 17%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.img3 {
+    width: 20%;
+    margin-left: 37.5%;
+    margin-top: 2%;
+}
+
+.img4 {
+    width: 17%;
+    margin-left: 67.5%;
+    margin-top:5%;
+}
+
+.desc-info p {
+    margin-top: 2%;
+    text-align: justify;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+.desc-info h2 {
+    margin-bottom: 0;
+    color: #f7b555;
+    font-family: "Poppins", sans-serif;
+}
+
+.desc-info span {
+    font-size: 19px;
+    font-weight: bold; 
+    text-decoration: underline;
+}
+
+.sobre {
+    margin-top: 9%;
+    padding-left: 5%;
+    padding-right: 1%;
+}
+
+.objetivo {
+    margin-top: 3.5%;
+    padding-left: 2.5%;
+    padding-right: 1%;
+}
+
+.empresa {
+    margin-top: 9%;
+    padding-left: 2.5%;
+    padding-right: 5%;
 }

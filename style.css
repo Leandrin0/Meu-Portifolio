@@ -1,0 +1,122 @@
+.body {
+    margin: 0;
+}
+
+/* Menu Principal */
+.body-principal {
+    position:relative;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.img1 {
+    position: absolute;
+    width: 28%;
+    margin-left: 12%;
+    border-radius: 5%;
+    box-shadow: -5px 3px 25px #101010;
+}
+
+.color-background {
+    width: 30%;
+    height: 100%;
+    background-color: #db8c19;
+}
+
+.info-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    height: 100%;
+    background-color: #000000;
+}
+
+.menu-bar {
+    width: 5%;
+    height: 100%;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info1 {
+    margin-left: 25%;
+    max-width: 67%;
+}
+
+.title1 {
+    margin-bottom: 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    color: #f7b555;
+}
+.title2 {
+    margin-top: 0;
+    padding-left: 38px;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.text1 {
+    margin-top: 0px;
+    margin-bottom: 4%;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.menu1 {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.menu1 a {
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #212121;
+    padding: 12px;
+    border-radius: 150%;
+}
+
+.a1 {
+    margin-bottom: 200%;
+}
+
+.a2 {
+    margin-bottom: 200%;
+}
+
+.next   {
+    display: flex;
+    align-items: center;
+}
+
+.botao1 {
+    margin-right: 1%;
+    padding: 15px;
+    padding-left: 20px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border: 2px solid #db8c19;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    width: 17.5%;
+}
+
+.icon1 {
+    font-size: 17px;
+    padding: 18.7px;
+    padding-left: 15px;
+    background-color: #db8c19;
+    color: #000000;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
